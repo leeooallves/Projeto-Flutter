@@ -1,13 +1,11 @@
 class Transacao {
-  String id;
-  String titulo;
-  double valor;
-  String data;
+  final String titulo;
+  final double valor;
+  final bool tipo;
 
   Transacao({
-    required this.id,
     required this.titulo,
     required this.valor,
-    required this.data,
+    required this.tipo,
   });
 }
